@@ -4,8 +4,8 @@
  * @return {number[]}
  */
 
-var twoSum = function(nums, target) {
-    const map = new Map
+var twoSum = function (nums, target) {
+    const map = new Map()
     for (let i = 0; i < nums.length; i++) {
         console.log(map)
         const compare = target - nums[i]
@@ -17,4 +17,4 @@ var twoSum = function(nums, target) {
     }
 }
 
-twoSum([2,11,11,7], 9)
+twoSum([2, 11, 11, 7], 9)
